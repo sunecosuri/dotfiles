@@ -1,3 +1,3 @@
 #i!/bin/sh
-ln -sf ~/dotfiles/.vimrc ~/.vimrc
-ln -sf ~/dotfiles/.viminfo ~/.viminfo
+ln -sf ~/.ghq/github.com/sunecosuri/dotfiles/.vimrc ~/.vimrc
+ln -sf ~/.ghq/github.com/sunecosuri/dotfiles/.viminfo ~/.viminfo
