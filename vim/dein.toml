@@ -1,0 +1,68 @@
+[[plugins]]
+repo  = "scrooloose/nerdcommenter"
+
+[[plugins]]
+repo  = "tpope/vim-endwise"
+
+[[plugins]]
+repo = "bling/vim-airline"
+
+[[plugins]]
+repo = "Shougo/neocomplete.vim"
+
+[[plugins]]
+repo = "Shougo/neosnippet"
+
+[[plugins]]
+repo = "Shougo/neosnippet-snippets"
+
+#[[plugins]]
+#repo = "Shougo/neomru.vim"
+
+[[plugins]]
+repo = "Shougo/unite.vim"
+
+[[plugins]]
+repo = "Shougo/vimproc.vim"
+hook_post_update = '''
+  if dein#util#_is_windows()
+    let cmd = 'tools\\update-dll-mingw'
+  elseif dein#util#_is_cygwin()
+    let cmd = 'make -f make_cygwin.mak'
+  elseif executable('gmake')
+    let cmd = 'gmake'
+  else
+    let cmd = 'make'
+  endif
+  let g:dein#plugin.build = cmd
+'''
+
+[[plugins]]
+repo = "Shougo/vimfiler.vim"
+
+#[[plugins]]
+#repo = "itchyny/lightline.vim"
+
+[[plugins]]
+repo = "bronson/vim-trailing-whitespace"
+
+[[plugins]]
+repo = "jwhitley/vim-matchit"
+
+[[plugins]]
+repo = "thinca/vim-quickrun"
+
+[[plugins]]
+repo = "tyru/open-browser.vim"
+
+[[plugins]]
+repo = "soramugi/auto-ctags.vim"
+
+[[plugins]]
+repo = "kana/vim-submode"
+
+[[plugins]]
+repo = "rhysd/vim-clang-format"
+
+[[plugins]]
+repo = "vim-scripts/gtags.vim"

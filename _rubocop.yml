@@ -1,0 +1,22 @@
+Lint/EndAlignment:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 150
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/FileName:
+  Exclude:
+    - 'cookbooks/consul/recipes/consul-template.rb'
+
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'bin/**/*'
+Metrics/BlockLength:
+  Max: 50
+
+Metrics/MethodLength:
+  Max: 15
