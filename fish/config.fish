@@ -70,6 +70,5 @@ function togif
   end
 end
 
-
+# asdf
 source /usr/local/opt/asdf/asdf.fish
-starship init fish | source
