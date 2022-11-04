@@ -1,4 +1,4 @@
 #i!/bin/sh
-ln -sf ~/.ghq/github.com/sunecosuri/dotfiles/_vimrc ~/.vimrc
-ln -sf ~/.ghq/github.com/sunecosuri/dotfiles/.vim   ~/.vim
-ln -sf ~/.ghq/github.com/sunecosuri/dotfiles/.viminfo ~/.viminfo
+
+ln -sf ~/.ghq/github.com/sunecosuri/dotfiles/.config/fish ~/.config/fish
+ln -sf ~/.ghq/github.com/sunecosuri/dotfiles/.gitconfig ~/.gitconfig

@@ -1,1 +1,0 @@
-/Users/sunecosuri/.config/fisherman/getopts/getopts.fish

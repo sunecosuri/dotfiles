@@ -1,1 +1,0 @@
-/Users/sunecosuri/.config/fisherman/await/functions/await.fish

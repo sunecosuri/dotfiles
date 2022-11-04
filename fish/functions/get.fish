@@ -1,1 +1,0 @@
-/Users/sunecosuri/.config/fisherman/get/functions/get.fish

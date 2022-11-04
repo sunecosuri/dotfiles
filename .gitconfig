@@ -1,0 +1,11 @@
+[core]
+	excludesfile = /Users/sunecosuri/.gitignore_global
+[user]
+	name = sunecosuri
+	email = sunecosuri@gmail.com
+[ghq]
+	root = /Users/sunecosuri/.ghq
+[fetch]
+	prune = true
+[push]
+	default = current
